@@ -1,4 +1,5 @@
 @charset "utf-8";
+/* Navigation Styles */
 .nav{
   	list-style-type: none;
   	margin: 0;
@@ -30,7 +31,9 @@
 .active {
  	background-color: #d56b44;
 }
-	
+
+
+/* Heading and header styles */
 h1 {
     color: rgba(0,0,0,1.00);
     font-family: 'Gabarito', sans-serif;
@@ -63,7 +66,22 @@ h2{
 	padding: 10px;
 	border-radius: 5px;
 }
-	
+
+h5{
+	margin-top: -6px;
+}
+
+h5.authorName{
+	margin-top: 3px;
+	text-align: left;
+}
+
+h6{
+	margin-top: -12px;
+}
+
+
+/* Body Styles */
 body{ 
 	background-color: #cce8f0;
 	margin: 0;
@@ -81,7 +99,9 @@ section{
 	padding-left: 350px;
 	padding-right: 350px;
 }
-	
+
+
+/* Specific Section Styles */
 section.firstSect{
 	padding-top: 10px;
 }
@@ -123,7 +143,9 @@ section.secondSectColor{
 	padding-left: 50px;
 	padding-right: 150px;
 }
-	
+
+
+/* General image styles */
 img{
 	display: block;
 	max-width: 100%;
@@ -132,6 +154,8 @@ img{
 	margin-right: auto;
 }
 
+
+/* Profile images styles */
 img.myprofile{
 	float: right;
 	margin-left: 20px;
@@ -156,19 +180,6 @@ img.cameronProfile{
 	margin-right: 20px;
 }
 
-h5{
-	margin-top: -6px;
-}
-
-h5.authorName{
-	margin-top: 3px;
-	text-align: left;
-}
-
-h6{
-	margin-top: -12px;
-}
-
 section.thirdSect img{
 	float: right;
 	padding-left: 10px;
@@ -178,8 +189,10 @@ section.fifthSect img{
 	margin-left: -20px;
 }
 
+
+/* Related Reads section styles */
 section.relatedReads{
-	margin-top: -70px;
+	margin-top: 10px;
 	margin-bottom: -70px;
 	background-color: #B2ABE8;
 }
@@ -196,16 +209,21 @@ section.relatedReads h2{
 	margin-left: -10px;
 }
 
+
+/* Principles Page Citation */
 section.princeCitation{
 	margin-left: -290px;
 }
 
+
+/* Individual image styles */
 img.goodApp{
-	padding-bottom: 30px;
+	padding-top: 50px;
+	padding-bottom: 80px;
 }
 	
 img.plantApp{
-	width: 70%;
+	width: 65%;
 	float: right;
 }
 
@@ -257,6 +275,8 @@ img.unityImage{
 	padding-top: 50px;
 }
 
+
+/* Quote Styles */
 q{
 	color: #646082;
 	font-size: 1.5em;
@@ -268,7 +288,9 @@ section.sixthSect q{
 	font-size: 2em;
 	text-align: center;
 }
-	
+
+
+/* Link styles */
 a{
 	color: #d56b44;
 	font-weight: bold;
@@ -277,13 +299,15 @@ a{
 a:hover{
 	color: #974B30;
 }
-	
+
+
+/* Footer styles */
 footer{
 	background-color: #d56b44;
 	color: #f8f8f8;
 	padding-top: 50px;
-	padding-left: 350px;
-	padding-right: 200px;
+	padding-left: 300px;
+	padding-right: 250px;
 	padding-bottom: 50px;
 }
 
@@ -297,6 +321,8 @@ footer a:hover{
 	text-decoration: underline;
 }
 
+
+/* Button styles */
 button{
 	display: inline block;
   	border: none;
@@ -336,6 +362,8 @@ button.contrastButton{
 	margin-top: -0px;
 }
 
+
+/* Column styles on principle page */
 div.ninthSectContrast{
 	padding-left: 350px;
 	padding-right: 350px;
@@ -349,6 +377,7 @@ h2.contrast{
 .ninthSectContrast{
 	column-count: 3;
 }
+
 
 /* Card Styles on Principles Page */
 * {
